@@ -27,6 +27,27 @@ const Index = () => {
           </SimpleGrid>
         </Box>
 
+        <Box p={5} shadow="md" borderWidth="1px" borderRadius="lg" bg="brand.800">
+          <Heading as="h2" size="lg" color="white">
+            Band Boosters
+          </Heading>
+          <Text mt={4} color="white">
+            Join the Town High School Band Boosters to support our musicians! Your contributions help us fund new instruments, uniforms, and travel for competitions.
+          </Text>
+        </Box>
+
+        <Box p={5} shadow="md" borderWidth="1px" borderRadius="lg" bg="brand.900">
+          <Heading as="h2" size="lg" color="white">
+            Volunteer
+          </Heading>
+          <VStack spacing={5} mt={4}>
+            <Input placeholder="Your Name" />
+            <Input placeholder="Your Email" />
+            <Textarea placeholder="Your Message" />
+            <Button colorScheme="red">Submit</Button>
+          </VStack>
+        </Box>
+
         <Box p={5} shadow="md" borderWidth="1px" borderRadius="lg">
           <Heading as="h2" size="lg">
             Contact Us
